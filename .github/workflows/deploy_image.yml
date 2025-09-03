@@ -33,6 +33,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ steps.metadata.outputs.tags }}
-          labels: ${{ steps.metadata.outputs.labels }}
+          tags: ghcr.io/${{ env.IMAGE_NAME}}:latest
           platforms: linux/amd64,linux/arm64
