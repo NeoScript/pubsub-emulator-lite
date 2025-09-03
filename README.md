@@ -1,14 +1,5 @@
 # Pub/Sub Emulator Lite
 
-<!--toc:start-->
-- [Pub/Sub Emulator Lite](#pubsub-emulator-lite)
-  - [Usage](#usage)
-    - [docker compose](#docker-compose)
-    - [docker run](#docker-run)
-    - [Connecting](#connecting)
-  - [Comparison](#comparison)
-<!--toc:end-->
-
 A minified version of the google cloud pub/sub emulator
 
 ## Usage
@@ -51,4 +42,5 @@ Comparing the size of alternative solutions.
 | gcr.io/google.com/cloudsdktool/google-cloud-cli  | emulators  | 420d45e98937  | 9 hours ago   | 1.06GB  |
 | ghcr.io/neoscript/pubsub-emulator-lite           | latest     | e5efb4f71c82  | 16 hours ago  | 921MB   |
 | messagebird/gcloud-pubsub-emulator               | latest     | b690195d      | 5 years ago   | 1.36GB  |
+
 :Comparison done: 2025-09-03T20:17:39+00:00
