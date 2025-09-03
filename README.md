@@ -1,6 +1,6 @@
 # Pub/Sub Emulator Lite
 
-A minifid version of the google cloud pubsub emulator
+A minified version of the google cloud pub/sub emulator
 
 ## Usage
 
@@ -18,4 +18,8 @@ Just pull the image and run it via `docker run`
 
 `docker run -p 8090:8090 ghcr.io/neoscript/pubsub-emulator-lite:latest`
 
+### Connecting
 Access it via `http://localhost:8090/`
+
+> [!NOTE]
+> You can set your own port forwarding if you want to expose the emulator via a different port.
